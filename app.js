@@ -106,6 +106,7 @@ function displayWeather(response) {
 
   getForecast(response.data.coord);
 }
+
 function searchCity(city) {
   let apiKey = "9ff62228143f9cc1758df8baa86a6b09";
   let units = "metric";
