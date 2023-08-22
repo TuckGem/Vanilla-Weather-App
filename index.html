@@ -14,48 +14,42 @@
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>Weather app</title>
   </head>
-</html>
-<body>
-  <div class="weather-app-wrapper">
-    <div class="container">
-      <div class="border">
-        <div class="row">
-          <div class="col-6">
-            <div class="row-top-left">
-              <h1 id="current-city"></h1>
-              <h2 id="day-time">Today, Monday August 21</h2>
-              <h3 id="description"></h3>
+  <body>
+    <div class="weather-app-wrapper">
+      <div class="container">
+        <div class="border">
+          <div class="row">
+            <div class="col-6">
+              <div class="row-top-left">
+                <h1 id="current-city"></h1>
+                <h2 id="day-time">Today, Monday August 21</h2>
+                <h3 id="description"></h3>
+              </div>
             </div>
-          </div>
-          <div class="col-6">
-            <form class="row search-button" id="search-button">
-              <input
-                type="search"
-                id="search-text-input"
-                placeholder="Search location"
-                autofocus="on"
-                autocomplete="off"
-                class="form-control col-6 shadow-sm"
-              />
-              <input
-                type="submit"
-                value="Search"
-                class="form-control col-3 btn shadow-sm"
-              />
-              <input
-                type="button"
-                id="current-location"
-                value="Current"
-                class="form-control btn col-3 shadow-sm"
-              />
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
- <div class="col-12">
+            <div class="col-6">
+              <form class="row search-button" id="search-button">
+                <input
+                  type="search"
+                  id="search-text-input"
+                  placeholder="Search location"
+                  autofocus="on"
+                  autocomplete="off"
+                  class="form-control col-6 shadow-sm"
+                />
+                <input
+                  type="submit"
+                  value="Search"
+                  class="form-control col-3 btn shadow-sm"
+                />
+                <input
+                  type="button"
+                  id="current-location"
+                  value="Current"
+                  class="form-control btn col-3 shadow-sm"
+                />
+              </form>
+            </div>
+            <div class="col-12">
               <span class="main-emoji">
                 <img src="" id="icon" class="main-emoji" />
               </span>
@@ -72,7 +66,9 @@
         </div>
       </div>
       <footer>
-        <a href="https://github.com/TuckGem/Vanilla-Weather-App">Open source code on GitHub</a>
+        <a href="https://github.com/TuckGem/Vanilla-Weather-App"
+          >Open source code on GitHub</a
+        >
         by Gemma Tuck | hosted by
         <a href="https://www.netlify.com/">Netlify</a>
       </footer>
