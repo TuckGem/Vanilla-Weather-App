@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #48484a;
+}
+footer {
+  text-align: center;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 12px;
+}
+.row-top-left,
+h1,
+.search {
+  margin-top: 15px;
+}
+a {
+  color: #cd4545;
+}
+.container {
+  max-width: 800px;
+}
+.low-temp {
+  color: #f3a333;
+}
+.high-temp {
+  color: #cd4545;
+  text-align: center;
+}
