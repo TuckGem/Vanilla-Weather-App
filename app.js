@@ -85,7 +85,7 @@ function displayWeather(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
-  document.querySelector("#main-rain").innerHTML = response.data.main.rain;
+  document.querySelector("#main-rain").innerHTML = response.data.main.rain || 0;
   document.querySelector("#main-humidity").innerHTML =
     response.data.main.humidity;
   document.querySelector("#main-wind").innerHTML = Math.round(
